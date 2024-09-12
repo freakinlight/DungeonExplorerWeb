@@ -16,3 +16,5 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+juice_logo_path = "logo.png"
+juice_logo_name = "Dungeon Explorer"
