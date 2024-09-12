@@ -6,7 +6,8 @@ Get ready to embark on a journey like no other. Dive into the unknown, conquer
 the darkness, and emerge victorious. The adventure of a lifetime awaits—stay
 tuned for more!
 
-![screenshot](/screenshot.png)
+<!-- What the heck Zola??? -->
+![screenshot](/DungeonExplorerWeb/screenshot.png)
 
 ## Basic player movement using WASD keys
 
