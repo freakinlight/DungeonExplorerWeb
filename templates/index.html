@@ -1,5 +1,6 @@
 {% extends "juice/templates/index.html" %}
 {% block hero %}
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 <section class="text-center">
     <h1 class="heading-text" style="font-size: 50px">
         Dungeon Explorer Game
@@ -8,6 +9,12 @@
         Navigate <b>treacherous</b> dungeons, solve <b>intricate</b> puzzles, and battle <b>fierce</b>
         enemies in a dynamic 3D environment.
     </h3>
+    <div>
+        <!-- Place this tag where you want the button to render. -->
+        <a class="github-button" href="https://github.com/freakinlight/DungeonExplorer/archive/HEAD.zip"
+            data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-download"
+            data-size="large" aria-label="Download freakinlight/DungeonExplorer on GitHub">Download</a>
+    </div>
 </section>
 <img class="hero-image" style="width: 50%" src="{{ get_url(path='logo.png') }}">
 
