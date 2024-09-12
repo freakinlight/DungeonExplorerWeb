@@ -18,3 +18,6 @@ highlight_code = false
 # Put all your custom variables here
 juice_logo_path = "logo.png"
 juice_logo_name = "Dungeon Explorer"
+juice_extra_menu = [
+    { title = "Github", link = "https://github.com/freakinlight/DungeonExplorer"}
+]
