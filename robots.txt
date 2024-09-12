@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://freakinlight.github.io/DungeonExplorerWeb/sitemap.xml
