@@ -1,0 +1,32 @@
+{% extends "juice/templates/index.html" %}
+{% block hero %}
+<section class="text-center">
+    <h1 class="heading-text" style="font-size: 50px">
+        Dungeon Explorer Game
+    </h1>
+    <h3 class="title-text">
+        Navigate <b>treacherous</b> dungeons, solve <b>intricate</b> puzzles, and battle <b>fierce</b>
+        enemies in a dynamic 3D environment.
+    </h3>
+</section>
+<img class="hero-image" style="width: 50%" src="{{ get_url(path='logo.png') }}">
+
+<div class="explore-more text" onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
+    Explore More ⇩
+</div>
+<style>
+    .hero section {
+        padding: 0 5rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        .hero section {
+            padding: 0 2rem;
+        }
+
+        .hero-image {
+            display: none
+        }
+    }
+</style>
+{% endblock hero %}
